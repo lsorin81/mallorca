@@ -3,9 +3,10 @@ import styles from "./Plane.module.css";
 import VideoBackground from "./VideoBackground";
 
 function Hotel() {
+  const videoSrc = `${process.env.PUBLIC_URL}/videos/hotel.mp4`;
   return (
     <div className={styles.container}>
-      <VideoBackground videoSrc="/assets/hotel.mp4" />
+      <VideoBackground videoSrc={videoSrc} />
       <div className={styles.content}>
         <div className={styles.flightInfo}>
           <div className={styles.route}>

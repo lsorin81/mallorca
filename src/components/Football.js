@@ -3,9 +3,11 @@ import styles from "./Plane.module.css";
 import VideoBackground from "./VideoBackground";
 
 function Football() {
+  const videoSrc = `${process.env.PUBLIC_URL}/videos/football.mp4`;
+
   return (
     <div className={styles.container}>
-      <VideoBackground videoSrc="/assets/football.mp4" />
+      <VideoBackground videoSrc={videoSrc} />
       <div className={styles.content}>
         <div className={styles.flightInfo}>
           <div className={styles.route}>

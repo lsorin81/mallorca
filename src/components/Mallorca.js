@@ -3,9 +3,10 @@ import styles from "./Plane.module.css";
 import VideoBackground from "./VideoBackground";
 
 function Mallorca() {
+  const videoSrc = `${process.env.PUBLIC_URL}/videos/mallorca.mp4`;
   return (
     <div className={styles.container}>
-      <VideoBackground videoSrc="/assets/mallorca.mp4" />
+      <VideoBackground videoSrc={videoSrc} />
       <div className={styles.content}>
         <div className={styles.flightInfo}>
           <div className={styles.route}>
