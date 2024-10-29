@@ -3,9 +3,11 @@ import styles from "./Plane.module.css";
 import VideoBackground from "./VideoBackground";
 
 function Plane() {
+  const videoSrc = `${process.env.PUBLIC_URL}/videos/plane.mp4`;
+
   return (
     <div className={styles.container}>
-      <VideoBackground videoSrc="/assets/plane.mp4" />
+      <VideoBackground videoSrc={videoSrc} />
       <div className={styles.content}>
         <div className={styles.flightInfo}>
           <div className={styles.route}>
@@ -32,7 +34,7 @@ function Plane() {
             <div className={styles.return}>
               <h3>Întoarcere • Dum, 18 Mai</h3>
               <div className={styles.time}>06:05 – 10:10</div>
-              <div>Ryanair • 3 ore 5 min</div>
+              <div>Ryanair 3 ore 5 min</div>
               <div>PMI–OTP • Zbor direct</div>
             </div>
           </div>
