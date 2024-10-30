@@ -80,3 +80,50 @@
   font-size: 1rem;
   margin: 0 0 0.5rem;
 }
+
+.formationDisplay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  margin: 20px 0;
+  position: relative;
+  padding-right: 60px;
+}
+
+.attackerRow {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+
+.player {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  border: 2px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.reserves {
+  position: absolute;
+  right: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.playerImage {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}

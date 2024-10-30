@@ -11,31 +11,31 @@ function Plane() {
       <div className={styles.content}>
         <div className={styles.flightInfo}>
           <div className={styles.route}>
-            <h2>București → Palma</h2>
+            <h2>București → Palma de Mallorca</h2>
             <span>Dus-întors • Clasa Economic</span>
-            <div className={styles.price}>904 RON</div>
-            <small>Cel mai mic preț total</small>
+            <div className={styles.price}>până la 199€*</div>
+            <small>*Prețul final variază în funcție de date și opțiuni</small>
             <p className={styles.description}>
-              Ia-ți o săptămână întreagă pentru a descoperi magia Mallorcăi. De
-              la plaje imaculate până la golfuri ascunse, vei avea nevoie de
-              toate cele 7 zile pentru a experimenta cu adevărat acest paradis
-              mediteranean.
+              Descoperă magia Mallorcăi când dorești tu. Cu date flexibile de
+              plecare și multiple opțiuni de zbor, îți poți planifica vacanța
+              perfectă la Mediterană. Prețul include tariful de bază - bagajul
+              de cală și selectarea locului sunt disponibile contra cost.
             </p>
           </div>
 
           <div className={styles.flightDetails}>
             <div className={styles.outbound}>
-              <h3>Plecare • Dum, 11 Mai</h3>
-              <div className={styles.time}>10:35 – 12:50</div>
-              <div>Ryanair • 3 ore 15 min</div>
-              <div>OTP–PMI • Zbor direct</div>
+              <h3>Exemple Zboruri Dus</h3>
+              <div className={styles.time}>Mai multe ore disponibile</div>
+              <div>Diverse companii • ~3h durată zbor</div>
+              <div>OTP–PMI • Zboruri directe disponibile</div>
             </div>
 
             <div className={styles.return}>
-              <h3>Întoarcere • Dum, 18 Mai</h3>
-              <div className={styles.time}>06:05 – 10:10</div>
-              <div>Ryanair 3 ore 5 min</div>
-              <div>PMI–OTP • Zbor direct</div>
+              <h3>Exemple Zboruri Întors</h3>
+              <div className={styles.time}>Mai multe ore disponibile</div>
+              <div>Diverse companii • ~3h durată zbor</div>
+              <div>PMI–OTP • Zboruri directe disponibile</div>
             </div>
           </div>
         </div>
