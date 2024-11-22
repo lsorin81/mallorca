@@ -34,8 +34,8 @@ function Hotel() {
               </div>
               <div className={styles.paymentInfo}>
                 <p>
-                  <strong>PS:</strong> Avans minim 100 EUR (include taxa turneu
-                  20 EUR). Plata integrală până în martie 2025.
+                  <strong>PS:</strong> Avans minim 121 EUR (100 hotel + 21 taxa
+                  turneu). Plata integrală până în martie 2025.
                 </p>
               </div>
             </div>
@@ -66,8 +66,8 @@ function Hotel() {
               </div>
               <div className={styles.paymentInfo}>
                 <p>
-                  <strong>PS:</strong> Avans minim 100 EUR (include taxa turneu
-                  20 EUR). Plata integrală până în martie 2025.
+                  <strong>PS:</strong> Avans minim 121 EUR (100 hotel + 21 taxa
+                  turneu). Plata integrală până în martie 2025.
                 </p>
               </div>
             </div>
