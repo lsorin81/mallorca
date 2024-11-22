@@ -14,7 +14,6 @@
   object-fit: cover;
   z-index: 0;
 }
-
 .content {
   position: relative;
   z-index: 1;
@@ -126,4 +125,40 @@
   height: 100%;
   border-radius: 50%;
   object-fit: cover;
+}
+
+.hotelsContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  height: 100vh;
+  width: 100%;
+}
+
+.hotelCard {
+  position: relative;
+  min-height: 400px;
+}
+
+.hotelDetails {
+  margin-top: 1.5rem;
+}
+
+.notes {
+  margin-top: 1rem;
+  color: #666;
+}
+
+.textOverlay {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 1.5rem;
+  border-radius: 8px;
+  backdrop-filter: blur(2px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.paymentInfo {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  font-style: italic;
 }

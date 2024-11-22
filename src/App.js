@@ -7,14 +7,14 @@ import Mallorca from "./components/Mallorca";
 
 function App() {
   const [activeTab, setActiveTab] = useState("Avion");
-  const tabs = ["Avion", "Hotel", "Fotbal", "Mallorca"];
+  const tabs = ["Hotel", "Avion", "Fotbal", "Mallorca"];
 
   const renderContent = () => {
     switch (activeTab) {
-      case "Avion":
-        return <Plane />;
       case "Hotel":
         return <Hotel />;
+      case "Avion":
+        return <Plane />;
       case "Fotbal":
         return <Football />;
       case "Mallorca":
