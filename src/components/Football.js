@@ -6,6 +6,7 @@ function Football() {
   const videoSrc = `${process.env.PUBLIC_URL}/videos/football.mp4`;
   const player1 = `${process.env.PUBLIC_URL}/player_1.png`;
   const player2 = `${process.env.PUBLIC_URL}/player_2.png`;
+  const player3 = `${process.env.PUBLIC_URL}/player_3.png`;
 
   return (
     <div className={styles.container}>
@@ -42,7 +43,16 @@ function Football() {
               </div>
               {/* Goalkeeper */}
               <div className={styles.goalkeeper}>
-                <div className={styles.player}>?</div>
+                <div className={styles.player}>
+                  <img
+                    src={player3}
+                    alt="Player 3"
+                    className={`${styles.playerImage}`}
+                  />
+                  <div className={styles.playerWithIcon}>
+                    <span className={styles.goalkeeperIcon}>🧤</span>
+                  </div>
+                </div>
               </div>
               {/* Reserves */}
               <div className={styles.reserves}>
@@ -71,7 +81,7 @@ function Football() {
 
             <div className={styles.return}>
               <h3>Faza Eliminatorie • Sâm, 11 Mai</h3>
-              <div>Semifinale & Final��</div>
+              <div>Semifinale & Final</div>
               <div>Câștigătorul ia totul</div>
             </div>
           </div>
