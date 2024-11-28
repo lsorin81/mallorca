@@ -7,6 +7,7 @@ function Football() {
   const player1 = `${process.env.PUBLIC_URL}/player_1.png`;
   const player2 = `${process.env.PUBLIC_URL}/player_2.png`;
   const player3 = `${process.env.PUBLIC_URL}/player_3.png`;
+  const player4 = `${process.env.PUBLIC_URL}/player_4.png`;
 
   return (
     <div className={styles.container}>
@@ -18,7 +19,14 @@ function Football() {
             <div className={styles.formationDisplay}>
               {/* Top player */}
               <div className={styles.attackerRow}>
-                <div className={styles.player}>?</div>
+                <div className={styles.player}>
+                  {" "}
+                  <img
+                    src={player4}
+                    alt="Player 4"
+                    className={styles.playerImage}
+                  />
+                </div>
               </div>
               {/* Middle two players */}
               <div className={styles.attackerRow}>
