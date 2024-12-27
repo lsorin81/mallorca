@@ -8,6 +8,7 @@ function Football() {
   const player2 = `${process.env.PUBLIC_URL}/player_2.png`;
   const player3 = `${process.env.PUBLIC_URL}/player_3.png`;
   const player4 = `${process.env.PUBLIC_URL}/player_4.png`;
+  const player5 = `${process.env.PUBLIC_URL}/player_5.png`;
 
   return (
     <div className={styles.container}>
@@ -66,7 +67,15 @@ function Football() {
               <div className={styles.reserves}>
                 {[...Array(5)].map((_, i) => (
                   <div key={i} className={styles.player}>
-                    ?
+                    {i === 0 ? (
+                      <img
+                        src={player5}
+                        alt="Player 5"
+                        className={styles.playerImage}
+                      />
+                    ) : (
+                      "?"
+                    )}
                   </div>
                 ))}
               </div>
