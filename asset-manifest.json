@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/mallorca/static/css/main.abd3662e.css",
-    "main.js": "/mallorca/static/js/main.20c2230e.js",
+    "main.js": "/mallorca/static/js/main.a9d2f145.js",
     "static/js/453.9d1824f7.chunk.js": "/mallorca/static/js/453.9d1824f7.chunk.js",
     "index.html": "/mallorca/index.html",
     "main.abd3662e.css.map": "/mallorca/static/css/main.abd3662e.css.map",
-    "main.20c2230e.js.map": "/mallorca/static/js/main.20c2230e.js.map",
+    "main.a9d2f145.js.map": "/mallorca/static/js/main.a9d2f145.js.map",
     "453.9d1824f7.chunk.js.map": "/mallorca/static/js/453.9d1824f7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.abd3662e.css",
-    "static/js/main.20c2230e.js"
+    "static/js/main.a9d2f145.js"
   ]
 }
